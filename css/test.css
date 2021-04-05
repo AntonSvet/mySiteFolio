@@ -1,0 +1,202 @@
+html,
+body {
+  height: 80%;
+  width: 80%;
+  margin: 0 auto;
+  top: 0px;
+  border-radius: 0px;
+  background-color: #e5e5e5;
+}
+.header {
+  height: 88px;
+  left: 250.69px;
+  top: 87.94px;
+  background-color: #fff;
+}
+.header a {
+  color: #828282;
+  font-family: initial;
+  transition: all 0.5s ease;
+}
+.header a:hover {
+  background: #ffffff;
+  color: black;
+}
+.nav_panel {
+  top: 30px;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 940.6px;
+}
+ul,
+li {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  white-space: nowrap;
+}
+.nav_panel li a {
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  font-family: Gilroy-Bold;
+}
+.nav_panel li {
+  margin-right: 160px;
+}
+a.active {
+  color: black;
+}
+section {
+  padding-top: 80px;
+}
+footer {
+  padding-top: 80px;
+}
+.vector {
+  position: sticky;
+  width: 940.6px;
+  height: 0px;
+  margin-left: 248px;
+  top: 87.94px;
+  z-index: 2;
+
+  border: 1px solid #828282;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.home {
+  position: relative;
+  display: flex;
+  background-color: #fff;
+  text-align: center;
+  height: 750px;
+}
+.myName {
+  position: absolute;
+  left: 17.37%;
+  right: 74.08%;
+  top: 2.69%;
+  bottom: 94.82%;
+
+  font-family: initial;
+  font-size: 47.3392px;
+  line-height: 59px;
+
+  /* Black */
+
+  color: #070707;
+}
+.myProfile {
+  position: absolute;
+  left: 46.49%;
+  right: 42.74%;
+  top: 3.85%;
+  bottom: 95.22%;
+
+  font-family: initial;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+.ru_en {
+  position: absolute;
+
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  line-height: 20px;
+  left: 80.49%;
+  right: 42.74%;
+  top: 11.85%;
+  bottom: 95.22%;
+  color: #828282;
+
+  transform: rotate(-90deg);
+}
+/* Black */
+
+.home .image {
+  position: absolute;
+  width: 943.61px;
+  height: 387px;
+  left: 250.69px;
+  top: 276.94px;
+
+  background: url(img/20170521_142036.jpg);
+}
+.about_me {
+  background-color: #f6f6f6;
+  position: relative;
+  text-align: center;
+}
+.about_me h1 {
+  left: 44.68%;
+  right: 44.54%;
+  top: 18.66%;
+  bottom: 80.43%;
+  font-size: 34px;
+  line-height: 62px;
+  text-align: center;
+
+  /* Black */
+
+  color: #070707;
+}
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.about_me p {
+  height: 218px;
+  left: 480.33px;
+  top: 949px;
+  margin: 0;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  padding-bottom: 50px;
+
+  /* Black */
+
+  color: #070707;
+}
+.skills {
+  position: relative;
+  height: 400px;
+  background-color: #ffffff;
+}
+.skills .name {
+  text-align: center;
+  margin-top: 40px;
+}
+.programs {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+
+  justify-content: center;
+}
+.programs div {
+  margin-right: 80px;
+}
+.programs .img {
+  height: 60px;
+  width: 60px;
+}
+.portfolio {
+  background-color: #f6f6f6;
+  height: 1000px;
+}
+.logo h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.footer {
+  background-color: #ffffff;
+  height: 100px;
+}

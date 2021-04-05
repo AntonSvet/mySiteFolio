@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>MyWebSite</title>
+    <base target="_blank" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div id="header" class="header-content">
+          <div class="header-burger">
+            <span></span>
+          </div>
+          <ul class="nav-panel">
+            <li class="en">
+              <a class="active" key="home" href="#home">Home</a>
+            </li>
+            <li class="ru">
+              <a class="active" key="home" href="#home">Дом</a>
+            </li>
+            <li class="lang en"><a href="#about" key="about">About me</a></li>
+            <li class="lang ru"><a href="#about" key="about">Обо мне</a></li>
+            <li class="lang en"><a href="#skills" key="skills">Skills</a></li>
+            <li class="lang ru"><a href="#skills" key="skills">Навыки</a></li>
+            <li>
+              <a class="lang en" href="#Portfolio" key="portfolio">Portfolio</a>
+              <a class="lang ru" href="#Portfolio" key="portfolio"
+                >Мои работы</a
+              >
+            </li>
+            <li>
+              <a class="lang en" href="#Contacts" key="contancts">Contacts</a>
+              <a class="lang ru" href="#Contacts" key="contancts">Контакты</a>
+            </li>
+          </ul>
+
+          <div class="vector"></div>
+        </div>
+      </header>
+
+      <section id="home" class="home sec">
+        <div class="myName en">Svetenkov Anton</div>
+        <div class="myName ru">Светенков Антон</div>
+        <div class="myProfile en">
+          JavaScript developer 34 years old, Sankt-Peterburg
+        </div>
+        <div class="myProfile ru">
+          Разрабатываю на JavaScript, 34 года г.Санкт-Петербург
+        </div>
+        <div class="ru-en">
+          <button class="r eng">ru</button>/
+          <button class="e eng active">eng</button>
+        </div>
+        <div class="image"></div>
+      </section>
+      <div class="scroll-up">
+        <svg class="scroll-up__svg" viewBox="-2 -2 52 52">
+          <path
+            class="scroll-up__svg-path"
+            d="
+        M24,0
+        a24,24 0 0,1 0,48
+        a24,24 0 0,1 0,-48
+        "
+          />
+        </svg>
+      </div>
+      <section id="about" class="about_me sec">
+        <h1>About me</h1>
+
+        <p class="text-item scroll-item">
+          Hi, I am JavaScript developer from Sankt-Peterburg
+        </p>
+        <p class="text-item scroll-item">learn and create using Javascript</p>
+        <p class="text-item scroll-item">
+          I learn and create using Javascript and its React library
+        </p>
+        <p class="text-item scroll-item">
+          Ready to implement excellent projects with wonderful people.
+        </p>
+      </section>
+      <section id="skills" class="skills sec">
+        <div class="name">
+          <h1>Skills</h1>
+
+          <p>I work in such programs as</p>
+        </div>
+        <div class="programs">
+          <div class="pro scroll-item">
+            <img class="img" src="icons/html.png" alt="" />
+            <p>HTML</p>
+            <img src="img/Star.png" alt="" />
+            <img src="img/Star.png" alt="" />
+            <img src="img/Star.png" alt="" />
+            <img src="img/Star.png" alt="" />
+            <img src="img/Star.png" alt="" />
+          </div>
+
+          <div class="pro scroll-item">
+            <img
+              class="img"
+              src="icons/CSS3_logo_and_wordmark.svg.png"
+              alt=""
+            />
+            <p>CSS</p>
+            <img src="img/Star.png" alt="" />
+            <img src="img/Star.png" alt="" />
+            <img src="img/Star.png" alt="" />
+
+            <img src="img/Star_2.png" alt="" />
+            <img src="img/Star_2.png" alt="" />
+          </div>
+          <div class="pro scroll-item">
+            <img class="img" src="icons/png-js.png" alt="" />
+            <p>JavaScripts</p>
+            <img src="img/Star.png" alt="" />
+            <img src="img/Star.png" alt="" />
+            <img src="img/Star.png" alt="" />
+            <img src="img/Star.png" alt="" />
+            <img src="img/Star_2.png" alt="" />
+          </div>
+          <div class="pro scroll-item">
+            <img class="img" src="icons/React-icon.svg.png" alt="" />
+            <p>React</p>
+            <img src="img/Star.png" alt="" />
+            <img src="img/Star.png" alt="" />
+            <img src="img/Star.png" alt="" />
+            <img src="img/Star.png" alt="" />
+            <img src="img/Star_2.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section id="Portfolio" class="portfolio sec">
+        <div class="logo">
+          <h1>Portfolio</h1>
+        </div>
+        <div class="logo">
+          <p>
+            My projects are in the final stage of development and will soon
+            appear in this section.
+          </p>
+        </div>
+        <div class="slides">
+          <div class="flex-wrapper">
+            <div class="slider-wrapper">
+              <div class="slider active">
+                <img src="img/folio/1.jpg" alt="" />
+              </div>
+              <div class="slider">
+                <img src="img/folio/2.jpg" alt="" />
+              </div>
+              <div class="slider">
+                <img src="img/folio/3.jpg" alt="" />
+              </div>
+              <div class="slider">
+                <img src="img/folio/33.jpg" alt="" />
+              </div>
+              <div class="slider">
+                <img src="img/folio/44.jpg" alt="" />
+              </div>
+              <div id="btn-prev">PREV</div>
+              <div id="btn-next">NEXT</div>
+            </div>
+          </div>
+          <div class="dots-wrapper">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </section>
+
+      <footer id="Contacts" class="footer sec">
+        <div class="contacts">
+          <h1>Contacts</h1>
+          <p>
+            Want to know more or just chat? <br />
+            You are welcome!
+          </p>
+          <button class="btn_send scroll-item">Send me</button>
+        </div>
+        <div class="social_links">
+          <a class="icon scroll-item" href="https://ru-ru.facebook.com/"
+            ><img src="icons/icon_facebook.svg" alt="facebook"
+          /></a>
+          <a class="icon scroll-item" href="https://www.instagram.com/"
+            ><img src="icons/social_instagram.png" alt="instagram"
+          /></a>
+          <a class="icon scroll-item" href="https://www.linkedin.cn/feed/"
+            ><img src="icons/iconLinked.png" alt="linkedin"
+          /></a>
+          <a class="icon scroll-item" href="https://github.com/AntonSvet"
+            ><img src="icons/github-logo.png" alt="github"
+          /></a>
+        </div>
+        <div class="modal">
+          <div class="modal-overlay">
+            <div class="modal-window">
+              <form method="POST" action="http://127.0.0.1:3000/index">
+                <div class="modal-title">for feedback</div>
+                <div class="modal__close" data-close>&times;</div>
+                <div class="modal-item">
+                  <label for="formName" class="modal-label">Name*:</label>
+                  <input required type="text" class="modal-input" name="name" />
+                </div>
+                <div class="modal-item">
+                  <label for="formName" class="modal-label">E-mail*:</label>
+                  <input
+                    required
+                    type="text"
+                    name="email"
+                    class="modal-input"
+                  />
+                </div>
+                <div class="modal-item">
+                  <label for="formName" class="modal-label">Message*:</label>
+                  <textarea class="modal-input" name="message"></textarea>
+                </div>
+
+                <button class="btn-submit" type="submit">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/scrollAnimated.js"></script>
+
+    <script src="nodemailer.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
